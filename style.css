@@ -1,0 +1,256 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+  .navbar{
+    height: 80px;
+    margin: left 20px;
+    margin: right 20px; 
+  }
+  nav {
+    display: flexbox;
+    justify-content: space-between;
+    text-align: center;
+    background-color:rgb(52, 92, 12) ;
+  }
+  
+ .logo img {
+    height: 75px;
+    width: 75px;
+    display:inline ;
+    border-radius: 25%;
+    border-color: #1d1c1c;
+    color:whitesmoke;
+    
+    float:left;
+
+  }
+  .search-bar{
+    flex:1;
+    
+  }
+  .search-bar input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+  
+    
+   
+}
+
+.search-bar button {
+    padding: 8px 15px;
+    background-color: #dbeedb;
+    color:  rgb(38, 146, 52);
+  
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  
+}
+
+  
+  nav ul {
+    list-style-type: none;
+    padding-top: 15px;
+    padding-left: 500px;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  a:hover{
+    background-color: rgb(180, 247, 180);
+    opacity: 0.6;
+    transition: 0.3s;
+
+
+  }
+  a:active{
+    background-color: #e22362;
+    color:black;
+  }
+  
+ 
+  .hero .container img{
+    border: 1px solid #ddd;
+    margin-top:5px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    padding: 5px;
+    width: 500px;
+    float:right
+  }
+  
+  img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+  h3,h4{
+    margin-left: 2px;
+      text-align: left;
+      text-decoration: underline;
+      font-style: oblique;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      
+  }
+  
+  .login {
+    box-sizing: content-box;
+    border:solid green 2px;
+    border-radius: 25px;
+    margin-top :150px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right:50px;
+  }
+  #image1{
+    margin-left: 180px;
+    float:left;
+    height:200px;
+    width:150px;
+  }
+  
+  .login .container {
+    border:solid olivedrab 2px;
+    border-radius: 25px;
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+  }
+
+  
+  .login form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+  }
+  
+  .login form .form-group {
+    margin-left: -150px;
+    margin-bottom: 20px;
+  }
+  
+  .login form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .login form input {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login form button {
+    margin-left: -300px;
+    width:20%;
+    padding: 10px;
+    background-color: rgb(73, 94, 31);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login form button:hover {
+    background-color: #555;
+  }
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: fit-content;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  border-radius: 25px;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  border-radius: 25px;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+  border-radius: 25px;
+}
+
+.fa-instagram {
+  background: #e22362;
+  color: white;
+  border-radius: 25px;
+}
+
+
+  /* Footer */
+.footer {
+    background-color: #333333;
+    font-size: 13px; 
+    width:100%;
+    height:fit-content;
+}
+
+.footer-container {
+    padding: 24px;
+}
+
+.footer-cities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-city {
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+@media(max-width:768px) {
+    .footer-city {
+        width: 100%;
+    }
+}
+
+.footer-city a {
+    color: #ffffff;
+}
+
+.footer-copyright {
+    color: #a9a9a9;
+    text-align: center;
+    padding-top: 24px;
+    font-size: large;
+}
+
